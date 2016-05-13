@@ -1,0 +1,3 @@
+#define USE_CONV_LAYER
+#define USE_POOLING_LAYER
+#define USE_RELU_LAYER
