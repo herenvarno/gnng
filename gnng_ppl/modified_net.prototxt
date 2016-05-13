@@ -1,0 +1,159 @@
+name: "LeNet"
+state {
+  phase: TEST
+}
+layer {
+  name: "data1"
+  type: "MemoryData"
+  top: "data_gpu_0"
+  top: "data_gpu_1"
+  top: "label_gpu_0"
+  top: "label_gpu_1"
+  memory_data_param {
+    batch_size: 1
+    channels: 1
+    height: 25
+    width: 25
+  }
+}
+layer {
+  name: "conv1"
+  type: "Convolution"
+  bottom: "data_gpu_0"
+  bottom: "data_gpu_1"
+  top: "conv1_gpu_0"
+  top: "conv1_gpu_1"
+  param {
+    lr_mult: 1
+  }
+  param {
+    lr_mult: 2
+  }
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  name: "pool1"
+  type: "Pooling"
+  bottom: "conv1_gpu_0"
+  bottom: "conv1_gpu_1"
+  top: "pool1_gpu_0"
+  top: "pool1_gpu_1"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "conv2"
+  type: "Convolution"
+  bottom: "pool1_gpu_0"
+  bottom: "pool1_gpu_1"
+  top: "conv2_gpu_0"
+  top: "conv2_gpu_1"
+  param {
+    lr_mult: 1
+  }
+  param {
+    lr_mult: 2
+  }
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  name: "pool2"
+  type: "Pooling"
+  bottom: "conv2_gpu_0"
+  bottom: "conv2_gpu_1"
+  top: "pool2_gpu_0"
+  top: "pool2_gpu_1"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "ip1"
+  type: "InnerProduct"
+  bottom: "pool2_gpu_0"
+  bottom: "pool2_gpu_1"
+  top: "ip1_gpu_0"
+  top: "ip1_gpu_1"
+  param {
+    lr_mult: 1
+  }
+  param {
+    lr_mult: 2
+  }
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  name: "relu1"
+  type: "ReLU"
+  bottom: "ip1_gpu_0"
+  bottom: "ip1_gpu_1"
+  top: "ip1_gpu_0"
+  top: "ip1_gpu_1"
+}
+layer {
+  name: "ip2"
+  type: "InnerProduct"
+  bottom: "ip1_gpu_0"
+  bottom: "ip1_gpu_1"
+  top: "ip2_gpu_0"
+  top: "ip2_gpu_1"
+  param {
+    lr_mult: 1
+  }
+  param {
+    lr_mult: 2
+  }
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  name: "softmax1"
+  type: "Softmax"
+  bottom: "ip2_gpu_0"
+  bottom: "ip2_gpu_1"
+  top: "result_gpu_0"
+  top: "result_gpu_1"
+  include {
+    phase: TEST
+  }
+}
