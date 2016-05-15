@@ -273,46 +273,73 @@ void ConvolutionLayer<Dtype>::forward_gpu_gemm(const Dtype* input,
 
 template <typename Dtype>
 void ConvolutionLayer<Dtype>::forward_gpu_gemm(const Dtype* input,
-    const Dtype* weights, Dtype* output, const int block_size, bool skip_im2col) {
+    const Dtype* weights, Dtype* output, const int set_size, bool skip_im2col) {
   const Dtype* col_buff = input;
-  for(int i=0; i<conv_out_spatial_dim_/(block_size+1)+1;i++)
-  {
+  int size=0;
+ for(int set_idx=0; set_idx<conv_out_spatial_dim_/(set_size+1)+1; set_idx++)
+  {		
+		
 	  if (!is_1x1_) {
 		if (!skip_im2col) {
-			const Dtype *input_ptr = input + i * stride_.cpu_data()[0] * conv_input_shape_.cpu_data()[2];
-		  im2col_gpu(input, conv_in_channels_,
-		      conv_input_shape_.cpu_data()[1] - i * stride_.cpu_data()[0], conv_input_shape_.cpu_data()[2],
+		 size = im2col_gpu_mod(input, conv_in_channels_,
+		      conv_input_shape_.cpu_data()[1], conv_input_shape_.cpu_data()[2],
 		      kernel_shape_.cpu_data()[0], kernel_shape_.cpu_data()[1],
 		      pad_.cpu_data()[0], pad_.cpu_data()[1],
 		      stride_.cpu_data()[0], stride_.cpu_data()[1],
-		      dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buffer_.mutable_gpu_data(), i, block_size);
+		      dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buffer_.mutable_gpu_data(), set_idx, set_size);
 		}
 		col_buff = col_buffer_.gpu_data();
-	if(i==1)	{
-		for (int k=0; k<1; k++)
-  {
-  	for (int j=0; j<block_size; j++){
-  		printf("%d,", int(col_buffer_.cpu_data()[k*block_size+j]));
-  		if((j+1)%21==0)
-  			printf("\n");
-  	}
-  	printf("\n");
-  }
+		caffe_gpu_gemm<Dtype>(CblasNoTrans, CblasNoTrans, conv_out_channels_,size, 
+			kernel_dim_,
+		    (Dtype)1., weights, col_buff, 
+		    (Dtype)0., output + set_idx*conv_out_channels_);
+		
+	}
+	}
+		    
+/*	if(set_idx==0)	{
+		printf("SIZE=%d\n", size);
+		for (int k=4; k<8; k++)
+		{
+			for (int j=0; j<size; j++){
+				printf("%d,", int(col_buffer_.cpu_data()[k*size+j]));
+				if((j+1)%21==0)
+					printf("\n");
+				}
+			printf("\n");
+		}
+	}
+*/
+
+/*		if(set_idx==0)	{
+		printf("SIZE=%d\n", size);
+		for (int k=4; k<8; k++)
+		{
+			for (int j=0; j<size; j++){
+				printf("%d,", int(col_buffer_.cpu_data()[(k)*21*21+(set_idx*set_size+j)]));
+				if((j+1)%21==0)
+					printf("\n");
+				}
+			printf("\n");
+		}
   printf("__________________________________\n");
- }
-	  }
-/*	  for (int g = 0; g < group_; ++g) {
+ }*/
+  
+  
+  
+  /*
+  if (!is_1x1_) {
+  if (!skip_im2col) {
+      conv_im2col_gpu(input, col_buffer_.mutable_gpu_data());
+    }
+    col_buff = col_buffer_.cpu_data();
+	  for (int g = 0; g < group_; ++g) {
 		caffe_gpu_gemm<Dtype>(CblasNoTrans, CblasNoTrans, conv_out_channels_ /
 		    group_, conv_out_spatial_dim_, kernel_dim_,
 		    (Dtype)1., weights + weight_offset_ * g, col_buff + col_offset_ * g,
 		    (Dtype)0., output + output_offset_ * g);
 	  }
-*/
-		caffe_gpu_gemm<Dtype>(CblasTrans, CblasTrans, block_size, conv_out_channels_,
-			kernel_dim_,
-		    (Dtype)1., col_buff, weights,
-		    (Dtype)0., output + i*conv_out_channels_);
-  }
+}*/
 }
 
 
@@ -364,9 +391,37 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
      const Dtype* bottom_data = bottom[i]->gpu_data();
     Dtype* top_data = top[i]->mutable_gpu_data();
     for (int n = 0; n < this->num_; ++n) {
-    	LOG(INFO) << "CONV_TOP_SIZE: " << top[i]->shape_string();
+/*    	LOG(INFO) << "CONV_TOP_SIZE: " << top[i]->shape_string();
+		for (int k=0; k<25; k++)
+		{
+			for (int j=0; j<25; j++){
+				printf("%d,", int(bottom[0]->cpu_data()[k*25+j]));
+				if((j+1)%25==0)
+					printf("\n");
+				}
+		}*/
       this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
-          top_data + n * this->top_dim_, 241);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
+          top_data + n * this->top_dim_, 1);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
+      for (int k=0; k<1; k++)
+		{
+			for (int j=0; j<441; j++){
+				printf("%.2f,", float(top[0]->cpu_data()[k*441+j]));
+				if((j+1)%21==0)
+					printf("\n");
+				}
+		}
+		 printf("\n");
+		for (int k=0; k<1; k++)
+		{
+			for (int j=0; j<441; j++){
+				printf("%.2f,", float(top[0]->cpu_data()[j*25+k]));
+				if((j+1)%21==0)
+					printf("\n");
+				}
+		}
+		//printf("OUTPUT[4, 302] = %f\n", float(top[0]->cpu_data()[4*441+302]));
+		//printf("OUTPUT[302, 4] = %f\n", float(top[0]->cpu_data()[302*25+4]));
+      printf("---------------------------------------------------\n");
       if (this->bias_term_) {
         const Dtype* bias = this->blobs_[1]->gpu_data();
         this->forward_gpu_bias(top_data + n * this->top_dim_, bias);	// NOTE: Pass the start addr of previously calculated top of Nth channel, the bias.

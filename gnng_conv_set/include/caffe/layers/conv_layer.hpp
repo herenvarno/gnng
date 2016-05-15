@@ -39,7 +39,7 @@ public:
 
 protected:
 	void forward_gpu_gemm(const Dtype* col_input, const Dtype* weights,
-		Dtype* output,  const int block_size, bool skip_im2col = false);
+		Dtype* output,  const int set_size, bool skip_im2col = false);
 	void forward_gpu_bias(Dtype* output, const Dtype* bias);
 	virtual void Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 		const vector<Blob<Dtype>*>& top);
@@ -81,7 +81,7 @@ private:
           kernel_shape_.cpu_data()[0], kernel_shape_.cpu_data()[1],
           pad_.cpu_data()[0], pad_.cpu_data()[1],
           stride_.cpu_data()[0], stride_.cpu_data()[1],
-          dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buff, 0, 1);
+          dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buff);
     } else {
       im2col_nd_gpu(data, num_spatial_axes_, num_kernels_im2col_,
           conv_input_shape_.gpu_data(), col_buffer_.gpu_shape(),
