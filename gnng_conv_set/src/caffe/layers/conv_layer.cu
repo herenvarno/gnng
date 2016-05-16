@@ -273,29 +273,90 @@ void ConvolutionLayer<Dtype>::forward_gpu_gemm(const Dtype* input,
 
 template <typename Dtype>
 void ConvolutionLayer<Dtype>::forward_gpu_gemm(const Dtype* input,
+    const Dtype* weights, Dtype* output, bool skip_im2col) {
+  const Dtype* col_buff = input;
+  if (!is_1x1_) {
+    if (!skip_im2col) {
+      conv_im2col_gpu(input, col_buffer_.mutable_gpu_data());
+    }
+    col_buff = col_buffer_.gpu_data();
+  }
+  for (int g = 0; g < group_; ++g) {
+    caffe_gpu_gemm<Dtype>(CblasNoTrans, CblasNoTrans, conv_out_channels_ /
+        group_, conv_out_spatial_dim_, kernel_dim_,
+        (Dtype)1., weights + weight_offset_ * g, col_buff + col_offset_ * g,
+        (Dtype)0., output + output_offset_ * g);
+  }
+  
+}
+
+template <typename Dtype>
+__global__ void conv_mult_kernel(const int n,
+	const int M, const int N, const int K, const int O_dim,
+	const Dtype* A, const Dtype* B, Dtype* C, const int offset){
+
+	CUDA_KERNEL_LOOP(index, n) {
+		const int ah = index / N;
+		const int bw = index % N;
+		Dtype out=0;
+		for(int i=0; i<K; i++){
+			out += A[ah*K+i]*B[i*N+bw];
+		}
+		C[ah*O_dim+bw+offset] = out;
+	}
+}
+/*
+template <typename Dtype>
+__global__ void conv_transpose_kernel(const int n, Dtype* A, const int h, const int w) {
+
+	CUDA_KERNEL_LOOP(index, n) {
+		Dtype tmp = A[index];
+		__syncthreads();
+		int addr = (index % h) * w + index / h;
+		A[addr] = tmp;
+	}
+}*/
+
+template <typename Dtype>
+void ConvolutionLayer<Dtype>::forward_gpu_gemm_mod(const Dtype* input,
     const Dtype* weights, Dtype* output, const int set_size, bool skip_im2col) {
   const Dtype* col_buff = input;
   int size=0;
- for(int set_idx=0; set_idx<conv_out_spatial_dim_/(set_size+1)+1; set_idx++)
-  {		
+  
+	for(int set_idx=0; set_idx<(conv_out_spatial_dim_+set_size-1)/set_size; set_idx++)
+	{		
 		
-	  if (!is_1x1_) {
-		if (!skip_im2col) {
-		 size = im2col_gpu_mod(input, conv_in_channels_,
-		      conv_input_shape_.cpu_data()[1], conv_input_shape_.cpu_data()[2],
-		      kernel_shape_.cpu_data()[0], kernel_shape_.cpu_data()[1],
-		      pad_.cpu_data()[0], pad_.cpu_data()[1],
-		      stride_.cpu_data()[0], stride_.cpu_data()[1],
-		      dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buffer_.mutable_gpu_data(), set_idx, set_size);
+		if (!is_1x1_) {
+			if (!skip_im2col) {
+				size = im2col_gpu_mod(input, conv_in_channels_,
+				conv_input_shape_.cpu_data()[1], conv_input_shape_.cpu_data()[2],
+				kernel_shape_.cpu_data()[0], kernel_shape_.cpu_data()[1],
+				pad_.cpu_data()[0], pad_.cpu_data()[1],
+				stride_.cpu_data()[0], stride_.cpu_data()[1],
+				dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buffer_.mutable_gpu_data(), set_idx, set_size);
+			}
+			col_buff = col_buffer_.gpu_data();
+/*			caffe_gpu_gemm<Dtype>(CblasTrans, CblasTrans, 
+				size, conv_out_channels_, kernel_dim_,  
+				(Dtype)1., col_buff, weights,
+				(Dtype)0., output + set_idx*set_size*conv_out_channels_);
+				*/
+			const int offset = set_idx*set_size;
+			const int num_kernels = conv_out_channels_ * size;
+			conv_mult_kernel<Dtype><<<CAFFE_GET_BLOCKS(num_kernels), CAFFE_CUDA_NUM_THREADS>>>(
+				num_kernels, conv_out_channels_, size, kernel_dim_, conv_out_spatial_dim_, weights, col_buff, output, offset);
+			CUDA_POST_KERNEL_CHECK;
 		}
-		col_buff = col_buffer_.gpu_data();
-		caffe_gpu_gemm<Dtype>(CblasNoTrans, CblasNoTrans, conv_out_channels_,size, 
-			kernel_dim_,
-		    (Dtype)1., weights, col_buff, 
-		    (Dtype)0., output + set_idx*conv_out_channels_);
-		
 	}
-	}
+	
+//	const int num_kernels = conv_out_channels_ * conv_out_spatial_dim_;
+//	conv_transpose_kernel<Dtype><<<CAFFE_GET_BLOCKS(num_kernels),
+//	                         CAFFE_CUDA_NUM_THREADS>>>(
+//		  num_kernels, output, conv_out_spatial_dim_, conv_out_channels_);
+//	conv_transpose_kernel<Dtype><<<CAFFE_GET_BLOCKS(num_kernels),
+//	                         CAFFE_CUDA_NUM_THREADS>>>(
+//		  num_kernels, output, conv_out_spatial_dim_, conv_out_channels_);
+//	  CUDA_POST_KERNEL_CHECK;
 		    
 /*	if(set_idx==0)	{
 		printf("SIZE=%d\n", size);
@@ -400,9 +461,42 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 					printf("\n");
 				}
 		}*/
-      this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
-          top_data + n * this->top_dim_, 1);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
-      for (int k=0; k<1; k++)
+		int set = (conv_out_spatial_dim_+3)/4;
+		if (set < 128)
+			set = 128;
+		
+		this->forward_gpu_gemm_mod(bottom_data + n * this->bottom_dim_, weight,
+          top_data + n * this->top_dim_, set);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
+/*		FILE *fp;
+		string filename;
+		filename = bottom[i]->shape_string()+".mod.txt";
+		fp = fopen(filename.c_str(), "w+");
+		for (int k=0; k<conv_out_channels_; k++)
+		{
+			for (int j=0; j<conv_out_spatial_dim_; j++){
+				fprintf(fp, "%.2f,", float(top[0]->cpu_data()[j*conv_out_channels_+k]));
+				//fprintf(fp, "%.2f,", float(top[0]->cpu_data()[k*conv_out_spatial_dim_+j]));
+				}
+			fprintf(fp,"\n");
+		}
+		fclose(fp);
+*/		
+
+//		this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
+//          top_data + n * this->top_dim_);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
+/*        
+        filename = bottom[i]->shape_string()+".txt";
+        fp = fopen(filename.c_str(), "w+");
+         for (int k=0; k<conv_out_channels_; k++)
+		{
+			for (int j=0; j<conv_out_spatial_dim_; j++){
+				fprintf(fp, "%.2f,", float(top[0]->cpu_data()[k*conv_out_spatial_dim_+j]));
+				}
+			fprintf(fp,"\n");
+		}
+		fclose(fp);
+*/
+/*      for (int k=0; k<1; k++)
 		{
 			for (int j=0; j<441; j++){
 				printf("%.2f,", float(top[0]->cpu_data()[k*441+j]));
@@ -418,10 +512,10 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 				if((j+1)%21==0)
 					printf("\n");
 				}
-		}
+		}*/
 		//printf("OUTPUT[4, 302] = %f\n", float(top[0]->cpu_data()[4*441+302]));
 		//printf("OUTPUT[302, 4] = %f\n", float(top[0]->cpu_data()[302*25+4]));
-      printf("---------------------------------------------------\n");
+//      printf("---------------------------------------------------\n");
       if (this->bias_term_) {
         const Dtype* bias = this->blobs_[1]->gpu_data();
         this->forward_gpu_bias(top_data + n * this->top_dim_, bias);	// NOTE: Pass the start addr of previously calculated top of Nth channel, the bias.
