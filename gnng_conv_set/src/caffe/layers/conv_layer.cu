@@ -294,13 +294,23 @@ template <typename Dtype>
 __global__ void conv_mult_kernel(const int n,
 	const int M, const int N, const int K, const int O_dim,
 	const Dtype* A, const Dtype* B, Dtype* C, const int offset){
-
+	
 	CUDA_KERNEL_LOOP(index, n) {
 		const int ah = index / N;
 		const int bw = index % N;
 		Dtype out=0;
-		for(int i=0; i<K; i++){
-			out += A[ah*K+i]*B[i*N+bw];
+		int x=ah*K;
+		int y=bw;
+		for(int i=0; i<K/2; i++){
+			//out += A[ah*K+i]*B[i*N+bw];
+			out += A[x]*B[y];
+			out += A[x+1]*B[y+N];
+			x+=2;
+			y+=(N+N);
+		}
+		if(K%2)
+		{
+			out += A[x]*B[y];
 		}
 		C[ah*O_dim+bw+offset] = out;
 	}
@@ -336,16 +346,32 @@ void ConvolutionLayer<Dtype>::forward_gpu_gemm_mod(const Dtype* input,
 				dilation_.cpu_data()[0], dilation_.cpu_data()[1], col_buffer_.mutable_gpu_data(), set_idx, set_size);
 			}
 			col_buff = col_buffer_.gpu_data();
+
 /*			caffe_gpu_gemm<Dtype>(CblasTrans, CblasTrans, 
 				size, conv_out_channels_, kernel_dim_,  
 				(Dtype)1., col_buff, weights,
 				(Dtype)0., output + set_idx*set_size*conv_out_channels_);
-				*/
-			const int offset = set_idx*set_size;
+*/
+			caffe_gpu_gemm_mod<Dtype>(CblasNoTrans, CblasNoTrans, 
+				conv_out_channels_, size, kernel_dim_,  
+				(Dtype)1., weights, col_buff, 
+				(Dtype)0., output + set_idx*set_size, conv_out_spatial_dim_);
+			
+/*			const int offset = set_idx*set_size;
 			const int num_kernels = conv_out_channels_ * size;
 			conv_mult_kernel<Dtype><<<CAFFE_GET_BLOCKS(num_kernels), CAFFE_CUDA_NUM_THREADS>>>(
 				num_kernels, conv_out_channels_, size, kernel_dim_, conv_out_spatial_dim_, weights, col_buff, output, offset);
+//			conv_mult_kernel<Dtype><<<num_kernels, 64>>>(
+//				num_kernels, conv_out_channels_, size, kernel_dim_, conv_out_spatial_dim_, weights, col_buff, output, offset);
 			CUDA_POST_KERNEL_CHECK;
+*/
+/*
+			for(int i=0;i<conv_out_channels_; i++){
+				caffe_gpu_gemv(CblasTrans,
+					kernel_dim_, size, (Dtype)1., col_buff, weights+i*kernel_dim_,
+					(Dtype)1., output+i*conv_out_spatial_dim_+set_idx*set_size);
+			}
+*/
 		}
 	}
 	
@@ -462,11 +488,11 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 				}
 		}*/
 		int set = (conv_out_spatial_dim_+3)/4;
-		if (set < 128)
-			set = 128;
-		
+//		if (set < 128)
+//			set = 128;
+
 		this->forward_gpu_gemm_mod(bottom_data + n * this->bottom_dim_, weight,
-          top_data + n * this->top_dim_, set);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
+ 	        top_data + n * this->top_dim_, set);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
 /*		FILE *fp;
 		string filename;
 		filename = bottom[i]->shape_string()+".mod.txt";
@@ -474,13 +500,13 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 		for (int k=0; k<conv_out_channels_; k++)
 		{
 			for (int j=0; j<conv_out_spatial_dim_; j++){
-				fprintf(fp, "%.2f,", float(top[0]->cpu_data()[j*conv_out_channels_+k]));
-				//fprintf(fp, "%.2f,", float(top[0]->cpu_data()[k*conv_out_spatial_dim_+j]));
+				//fprintf(fp, "%.2f,", float(top[0]->cpu_data()[j*conv_out_channels_+k]));
+				fprintf(fp, "%.2f,", float(top[0]->cpu_data()[k*conv_out_spatial_dim_+j]));
 				}
 			fprintf(fp,"\n");
 		}
 		fclose(fp);
-*/		
+	*/
 
 //		this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
 //          top_data + n * this->top_dim_);	// NOTE: Pass the start addr of bottom of Nth channel, the weight  and the start addr of top of Nth channel.
