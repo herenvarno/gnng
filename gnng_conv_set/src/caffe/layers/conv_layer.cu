@@ -228,13 +228,20 @@ void ConvolutionLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
   // it goes lazily unused to save memory.
   col_buffer_shape_.clear();
   col_buffer_shape_.push_back(kernel_dim_ * group_);
+  int shape=1;
   for (int i = 0; i < num_spatial_axes_; ++i) {
     if (reverse_dimensions()) {
-      col_buffer_shape_.push_back(input_shape(i + 1));
+      //col_buffer_shape_.push_back(input_shape(i + 1));
+      shape*=input_shape(i + 1);
     } else {
-      col_buffer_shape_.push_back(output_shape_[i]);
+      //col_buffer_shape_.push_back(output_shape_[i]);
+      shape*=output_shape_[i];
     }
   }
+  col_buffer_shape_.push_back((shape+3)/4);
+  LOG(INFO) << "COL_BUFFER_SHAPE: ";
+  std::copy(col_buffer_shape_.begin(),col_buffer_shape_.end(),std::ostream_iterator<int>(std::cout<< " " ));
+  std::cout << std::endl;
   col_buffer_.Reshape(col_buffer_shape_);
   bottom_dim_ = bottom[0]->count(channel_axis_);
   top_dim_ = top[0]->count(channel_axis_);

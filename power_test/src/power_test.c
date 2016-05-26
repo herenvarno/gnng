@@ -62,6 +62,7 @@ int main(int argc, char* argv[])
 	// START TEST STEPS LOOP
 	for(i=0;i<STEPNUM;i++)
 	{
+		sleep(60);
 		printf("%s", STEPS[i][0]);
 		pid = fork();
 		if(pid==0)
@@ -74,14 +75,14 @@ int main(int argc, char* argv[])
 			snprintf(path, 1024, "%s/data/%s", PREFIX, STEPS[i][2]);
 			int f=open(path, O_WRONLY|O_CREAT|O_TRUNC, 0666);
 			dup2(f, STDOUT_FILENO);
-			char *child_argv[]={"/usr/bin/nvidia-smi", "-i", "0", "-q", "-d", "POWER", "-lms", "2", NULL};
+			char *child_argv[]={"/usr/bin/nvidia-smi", "-i", "0", "-q", "-d", "POWER,PERFORMANCE", "-lms", "2", NULL};
 			execv("/usr/bin/nvidia-smi", child_argv);
 			exit(127);
 		}
 		else if(pid>0)
 		{
 			// Parent: run program
-			sleep(1);
+			sleep(2);
 			if(STEPS[i][1]==NULL)
 			{
 				// for normal power test.
