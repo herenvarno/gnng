@@ -1,0 +1,4494 @@
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.49 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:40 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:41 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.28 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P8
+    Clocks Throttle Reasons
+        Idle                        : Active
+        Applications Clocks Setting : Not Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 26.52 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 48.24 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.78 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 28.33 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 47.34 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.89 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 28.33 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 47.34 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.89 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 28.33 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 47.34 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.89 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 28.33 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 47.34 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.89 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 28.33 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 47.34 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.89 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 44.31 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.98 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 44.31 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.98 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 44.31 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.98 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 44.31 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.98 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 44.31 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 31.98 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 52.46 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.76 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.01 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 55.78 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.02 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:42 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.17 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 57.83 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 58.51 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
+        Duration                    : 46.77 sec
+        Number of Samples           : 119
+        Max                         : 59.50 W
+        Min                         : 26.25 W
+        Avg                         : 32.03 W
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 26 17:59:43 2016
+Driver Version                      : 352.79
+
+Attached GPUs                       : 2
+GPU 0000:84:00.0
+    Performance State               : P0
+    Clocks Throttle Reasons
+        Idle                        : Not Active
+        Applications Clocks Setting : Active
+        SW Power Cap                : Not Active
+        HW Slowdown                 : Not Active
+        Unknown                     : Not Active
+    Power Readings
+        Power Management            : Supported
+        Power Draw                  : 60.16 W
+        Power Limit                 : 149.00 W
+        Default Power Limit         : 149.00 W
+        Enforced Power Limit        : 149.00 W
+        Min Power Limit             : 100.00 W
+        Max Power Limit             : 175.00 W
+    Power Samples
