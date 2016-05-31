@@ -16,22 +16,11 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
 // MODIFICATION BEGIN
 ////////////////////////////////////////////////////////////////////////////////
 
-<<<<<<< HEAD
 //	this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
 //		top_data + n * this->top_dim_);
 
 		this->forward_gpu_gemm_mod(bottom_data + n * this->bottom_dim_, weight,
 			top_data + n * this->top_dim_);
-=======
-	this->forward_gpu_gemm(bottom_data + n * this->bottom_dim_, weight,
-		top_data + n * this->top_dim_);
-
-//		int set = (this->conv_out_spatial_dim_+31)/32;
-//		if (set < 1024)
-//			set = 1024;
-//		this->forward_gpu_gemm_mod(bottom_data + n * this->bottom_dim_, weight,
-//			top_data + n * this->top_dim_, set);
->>>>>>> parent of 5a923c9... add power test program
 
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION END
@@ -42,6 +31,8 @@ void ConvolutionLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
       }
     }
   }
+  
+
 }
 
 template <typename Dtype>

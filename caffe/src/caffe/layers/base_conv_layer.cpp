@@ -180,7 +180,6 @@ void BaseConvolutionLayer<Dtype>::LayerSetUp(const vector<Blob<Dtype>*>& bottom,
   weight_offset_ = conv_out_channels_ * kernel_dim_ / group_;
   // Propagate gradients to the parameters (as directed by backward pass).
   this->param_propagate_down_.resize(this->blobs_.size(), true);
-<<<<<<< HEAD
   
   
 ////////////////////////////////////////////////////////////////////////////////
@@ -190,8 +189,6 @@ void BaseConvolutionLayer<Dtype>::LayerSetUp(const vector<Blob<Dtype>*>& bottom,
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION END
 ////////////////////////////////////////////////////////////////////////////////
-=======
->>>>>>> parent of 5a923c9... add power test program
 }
 
 template <typename Dtype>
@@ -241,14 +238,11 @@ void BaseConvolutionLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
   // The im2col result buffer will only hold one image at a time to avoid
   // overly large memory usage. In the special case of 1x1 convolution
   // it goes lazily unused to save memory.
-<<<<<<< HEAD
   
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION BEGIN
 ////////////////////////////////////////////////////////////////////////////////
 /*
-=======
->>>>>>> parent of 5a923c9... add power test program
   col_buffer_shape_.clear();
   col_buffer_shape_.push_back(kernel_dim_ * group_);
   for (int i = 0; i < num_spatial_axes_; ++i) {
@@ -258,7 +252,6 @@ void BaseConvolutionLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
       col_buffer_shape_.push_back(output_shape_[i]);
     }
   }
-<<<<<<< HEAD
 */
   col_buffer_shape_.clear();
   col_buffer_shape_.push_back(kernel_dim_ * group_);
@@ -270,12 +263,14 @@ void BaseConvolutionLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
       shape*=output_shape_[i];
     }
   }
-  col_buffer_shape_.push_back((shape+set_-1)/set_);
+  if(set_>0){
+  	col_buffer_shape_.push_back((shape+set_-1)/set_);
+  }else{
+  	col_buffer_shape_.push_back(shape);
+  }
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION END
 ////////////////////////////////////////////////////////////////////////////////
-=======
->>>>>>> parent of 5a923c9... add power test program
   col_buffer_.Reshape(col_buffer_shape_);
   bottom_dim_ = bottom[0]->count(channel_axis_);
   top_dim_ = top[0]->count(channel_axis_);
@@ -431,7 +426,7 @@ void BaseConvolutionLayer<Dtype>::backward_gpu_bias(Dtype* bias,
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION BEGIN
 ////////////////////////////////////////////////////////////////////////////////
-
+/*
 template <typename Dtype>
 __global__ void conv_mult_kernel(const int n,
 	const int M, const int N, const int K, const int O_dim,
@@ -458,24 +453,22 @@ __global__ void conv_mult_kernel(const int n,
 	}
 }
 
-
+*/
 template <typename Dtype>
 void BaseConvolutionLayer<Dtype>::forward_gpu_gemm_mod(const Dtype* input,
-<<<<<<< HEAD
     const Dtype* weights, Dtype* output, bool skip_im2col) {
-  const Dtype* col_buff = input;
+
+	// IF SET<=0 USE ORIGINAL CAFFE CODE
+	if(this->set_<=0){
+		this->forward_gpu_gemm(input, weights, output, skip_im2col);
+		return;
+	}
+
+	const Dtype* col_buff = input;
 	int size=0;
 	int set_size = (this->conv_out_spatial_dim_+this->set_-1)/this->set_;
 	for(int set_idx=0; set_idx<(conv_out_spatial_dim_+set_size-1)/set_size; set_idx++)
 	{
-=======
-    const Dtype* weights, Dtype* output, const int set_size, bool skip_im2col) {
-  const Dtype* col_buff = input;
-  int size=0;
-  
-	for(int set_idx=0; set_idx<(conv_out_spatial_dim_+set_size-1)/set_size; set_idx++)
-	{		
->>>>>>> parent of 5a923c9... add power test program
 		if (!is_1x1_) {
 			if (!skip_im2col) {
 				size = im2col_gpu_mod(input, conv_in_channels_,

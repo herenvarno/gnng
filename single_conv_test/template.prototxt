@@ -1,0 +1,37 @@
+name: "Single Conv Net"
+layer {
+	name: "data"
+	type: "MemoryData"
+	top: "data"
+	top: "label"
+	memory_data_param {
+		batch_size: 1
+		channels: %d
+		height: %d
+		width: %d
+	}
+}
+layer {
+	name: "conv"
+	type: "Convolution"
+	bottom: "data"
+	top: "conv"
+	param {
+		lr_mult: 1
+	}
+	param {
+		lr_mult: 2
+	}
+	convolution_param {
+		set: %d
+		num_output: %d
+		kernel_size: %d
+		stride: 1
+		weight_filler {
+			type: "xavier"
+		}
+		bias_filler {
+			type: "constant"
+		}
+	}
+}

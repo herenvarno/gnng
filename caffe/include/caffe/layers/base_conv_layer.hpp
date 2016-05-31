@@ -55,11 +55,7 @@ class BaseConvolutionLayer : public Layer<Dtype> {
 // MODIFICATION BEGIN
 ////////////////////////////////////////////////////////////////////////////////
 	void forward_gpu_gemm_mod(const Dtype* col_input, const Dtype* weights,
-<<<<<<< HEAD
 		Dtype* output, bool skip_im2col = false);
-=======
-		Dtype* output,  const int set_size, bool skip_im2col = false);
->>>>>>> parent of 5a923c9... add power test program
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION END
 ////////////////////////////////////////////////////////////////////////////////
@@ -104,7 +100,6 @@ class BaseConvolutionLayer : public Layer<Dtype> {
   bool bias_term_;
   bool is_1x1_;
   bool force_nd_im2col_;
-<<<<<<< HEAD
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATION BEGIN
 ////////////////////////////////////////////////////////////////////////////////
@@ -112,8 +107,6 @@ class BaseConvolutionLayer : public Layer<Dtype> {
 ////////////////////////////////////////////////////////////////////////////////
 // MODIFICATON END
 ////////////////////////////////////////////////////////////////////////////////
-=======
->>>>>>> parent of 5a923c9... add power test program
 
  private:
   // wrap im2col/col2im so we don't have to remember the (long) argument lists
@@ -182,13 +175,7 @@ class BaseConvolutionLayer : public Layer<Dtype> {
   int num_kernels_col2im_;
   int conv_out_channels_;
   int conv_in_channels_;
-<<<<<<< HEAD
   int conv_out_spatial_dim_;
-=======
-protected:
-  int conv_out_spatial_dim_;
-private:
->>>>>>> parent of 5a923c9... add power test program
   int kernel_dim_;
   int col_offset_;
   int output_offset_;
